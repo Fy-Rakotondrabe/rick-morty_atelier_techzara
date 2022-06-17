@@ -1,0 +1,16 @@
+enum Status {
+  empty,
+  loading,
+  loaded,
+  success,
+  serverError,
+  networkError,
+  notFoundError,
+  unauthorizedError,
+  conflictError,
+  badRequestError,
+  notConnectedError,
+  userConnected,
+  userDeconnected,
+  saving,
+}
